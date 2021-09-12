@@ -54,6 +54,27 @@ body{
 .number11{--rotation:330deg;}
 .number12{--rotation:360deg;}
 
+
+p{
+    --rotation: 0;
+    transform: rotate(var(--rotation));
+}
+
+
+.num-one{--rotation:-30deg;}
+.num-two{--rotation:-60deg;}
+.num-three{--rotation:-90deg;}
+.num-four{--rotation:-120deg;}
+.num-five{--rotation:-150deg;}
+.num-six{--rotation:-180deg;}
+.num-seven{--rotation:-210deg;}
+.num-eight{--rotation:-240deg;}
+.num-nine{--rotation:-270deg;}
+.num-ten{--rotation:-300deg;}
+.num-eleven{--rotation:-330deg;}
+.num-twelve{--rotation:-360deg;}
+
+
 .nudges{
     --rotation: 0;
     position: absolute;
