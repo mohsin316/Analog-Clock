@@ -21,7 +21,7 @@ body{
 }
 
 .clock{
-    margin-top: 2rem;
+    margin-top: 3.75rem;
     margin-right: 25rem;
     width: 400px;
     height: 400px;
@@ -160,6 +160,12 @@ body{
     background-color: black;
 }
 
+@media (max-width: 1250px){
+    .clock{
+        margin-top: 2rem;  
+    }
+    
+}
 
 @media (max-width: 900px){
     .clock{
