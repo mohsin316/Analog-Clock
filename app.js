@@ -11,7 +11,7 @@ const timer = () =>{
     const hour = (minute + currentTime.getHours())/12;
     const currentHour = currentTime.getHours()
 
-    if (currentHour >= 18){
+    if (currentHour >= 18 && currentHour < 6 ){
         body.style.backgroundImage =  "url('flat-mountains-night.svg')";
         clock.style.backgroundColor = '#0a3b32';
     }else if (currentHour >= 6){
